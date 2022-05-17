@@ -1,4 +1,4 @@
-# unit-converter
+# metric-imperial-unit-converter
 
 ## Metric/Imperial Unit Converter based on Scrimba's Solo Project Figma design
 
