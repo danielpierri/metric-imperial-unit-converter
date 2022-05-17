@@ -1,0 +1,156 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: whitesmoke;
+  transition: background-color 300ms ease;
+  flex-direction: column;
+  font-family: 'Prompt', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+/* Navbar Style */
+
+.navbar {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar__button {
+  border: none;
+  border-radius: 50%;
+  background-color: #FB3796;
+  color: white;
+  font-size: 1.125rem;
+  font-family: 'Prompt', sans-serif;
+  cursor: pointer;
+  margin: 1.25em 1em;
+  padding: .1em .5em;
+  transition: all 200ms ease-in-out;
+}
+
+.navbar__button:hover {
+  box-shadow: 0px 0px 5px #1F2937;
+}
+
+.navbar__button:active {
+  transform: scale(.9);
+}
+
+/* Input Section Style */
+
+.input-section__bg {
+  background: linear-gradient(45deg, #FB3796, #585DFE);
+  color: white;
+  text-shadow: 0px 0px 5px black;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 1px 5px #1F2937;
+  padding-bottom: 3em;
+}
+
+.input__box {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 0px 0px 5px black;
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  max-width: 6ch;
+  transition: border-bottom 100ms ease-in-out;
+}
+
+.input__box:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.input__box:active,
+.input__box:focus {
+  border-bottom: 2px solid white;
+}
+
+.input__box:active::placeholder,
+.input__box:focus::placeholder {
+  opacity: 0;
+}
+
+.input__box[type=number] { 
+  -moz-appearance: textfield;
+  appearance: textfield;
+  margin: 0; 
+}
+
+.input__box[type=number]::-webkit-inner-spin-button,
+.input__box[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* .input-section__content {
+  border: 1px solid blue;
+} */
+
+.title {
+  font-size: 1.375rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  max-width: 200px;
+  margin: 2em auto 1.5em;
+}
+
+.input {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* Result Section Style */
+
+.result-section {
+  /* border: 1px solid green; */
+  color: #1F2937;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  max-width: 300px;
+  margin: 2em auto;
+}
+
+.p__unit {
+  font-weight: 700;
+}
+
+.p__conversion {
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+/* Dark Theme */
+
+.dark-theme {
+  background-color: #1F2937;
+  color: white;
+}
+
+.dark-theme__text {
+  color: white;
+}
+
+.btn--dark {
+  background-color: #1F2937;
+}
+
+.moon,
+.moon--dark {
+  padding-top: 7px;
+}
