@@ -10,5 +10,5 @@ I made some custom aesthetics and implemented a dark mode toggler.
 
 My design with custom aesthetics and functionality:
 
-![image](https://user-images.githubusercontent.com/89363727/168928576-c32d19a7-c2f7-4aa6-8892-ab9ef26c2f82.png)
-![image](https://user-images.githubusercontent.com/89363727/168928677-e71f9abe-e795-4616-b815-48d3b27d7dbb.png)
+![image](https://user-images.githubusercontent.com/89363727/168937116-9421a051-cbcd-461f-a918-5ca9b7cdeda6.png)
+![image](https://user-images.githubusercontent.com/89363727/168937124-5a3b2490-e6ce-481e-b163-78b188c8a5cc.png)
